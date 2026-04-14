@@ -1,0 +1,12 @@
+{
+  "domain": "leaguetracker",
+  "name": "League Tracker",
+  "codeowners": ["@kami587"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/kami587/ha-leaguetracker",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/kami587/ha-leaguetracker/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
