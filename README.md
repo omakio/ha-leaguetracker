@@ -4,7 +4,7 @@ A Home Assistant custom integration that creates sensors for **league standings*
 
 Data is pulled from ESPN's public standings API. One poll per league returns data for all divisions in that league, so tracking all 8 NFL divisions costs the same as tracking one.
 
-> **Note:** This integration provides the *data*. In phase 1, display it with Home Assistant's built-in [markdown card](https://www.home-assistant.io/dashboards/markdown/) or [entities card](https://www.home-assistant.io/dashboards/entities/). A companion custom Lovelace card ([`ha-leaguetracker-card`](https://github.com/kami587/ha-leaguetracker-card)) is planned for phase 2.
+> **Note:** This integration provides the *data*. In phase 1, display it with Home Assistant's built-in [markdown card](https://www.home-assistant.io/dashboards/markdown/) or [entities card](https://www.home-assistant.io/dashboards/entities/). A companion custom Lovelace card ([`ha-leaguetracker-card`](https://github.com/omakio/ha-leaguetracker-card)) is planned for phase 2.
 
 ## Supported leagues
 
@@ -32,7 +32,7 @@ Data is pulled from ESPN's public standings API. One poll per league returns dat
 ### HACS (recommended)
 
 1. HACS → Integrations → ⋮ → Custom repositories
-2. Add `https://github.com/kami587/ha-leaguetracker`, category **Integration**
+2. Add `https://github.com/omakio/ha-leaguetracker`, category **Integration**
 3. Install **League Tracker**
 4. Restart Home Assistant
 5. Settings → Devices & Services → **+ Add Integration** → **League Tracker**

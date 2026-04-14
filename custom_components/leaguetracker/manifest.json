@@ -1,12 +1,12 @@
 {
   "domain": "leaguetracker",
   "name": "League Tracker",
-  "codeowners": ["@kami587"],
+  "codeowners": ["@omakio"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/kami587/ha-leaguetracker",
+  "documentation": "https://github.com/omakio/ha-leaguetracker",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/kami587/ha-leaguetracker/issues",
+  "issue_tracker": "https://github.com/omakio/ha-leaguetracker/issues",
   "requirements": [],
   "version": "0.1.0"
 }
